@@ -1,1 +1,1 @@
-var a=document.queryselector(".abc");
+!function(){"use strict";var o=document.querySelector("#demo-snackbar-example"),e=document.querySelector("#demo-show-snackbar"),t=function(o){e.style.backgroundColor=""};e.addEventListener("click",function(){e.style.backgroundColor="#"+Math.floor(16777215*Math.random()).toString(16);var a={message:"Button color changed.",timeout:2e3,actionHandler:t,actionText:"Undo"};o.MaterialSnackbar.showSnackbar(a)})}();
